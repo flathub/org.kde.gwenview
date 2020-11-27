@@ -60,6 +60,100 @@
             ]
         },
         {
+            "name": "cfitsio",
+            "buildsystem": "simple",
+            "build-commands": [
+                "sed -e 's|LDFLAGS=.*|LDFLAGS=\"$LDFLAGS\"|g' -i configure.in",
+                "autoreconf -vi",
+                "./configure --prefix=/ --enable-reentrant",
+                "make shared",
+                "make utils",
+                "make DESTDIR=${FLATPAK_DEST} install",
+                "install -D -m644 License.txt ${FLATPAK_DEST}/share/licenses/cfitsio/LICENSE"
+            ],
+            "cleanup": [
+                "/bin/cookbook",
+                "/bin/smem",
+                "/bin/testprog"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-3.49.tar.gz",
+                    "sha256": "5b65a20d5c53494ec8f638267fca4a629836b7ac8dd0ef0266834eab270ed4b3"
+                }
+            ]
+        },
+        {
+            "name": "jasper",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "config-opts": [
+                "-DJAS_ENABLE_SHARED=ON",
+                "-DJAS_ENABLE_LIBJPEG=ON",
+                "-DJAS_ENABLE_OPENGL=OFF",
+                "-DJAS_LOCAL=OFF",
+                "-DJAS_ENABLE_DOC=OFF",
+                "-DJAS_ENABLE_PROGRAMS=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/jasper-software/jasper/archive/version-2.0.22.tar.gz",
+                    "sha256": "afc4166bff29b8a0dc46ed5e8d6a208d7976fccfd0b1146e3400c8b2948794a2"
+                }
+            ]
+        },
+        {
+            "name": "libraw",
+            "builddir": true,
+            "config-opts": [
+                "--disable-examples",
+                "--disable-static"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.libraw.org/data/LibRaw-0.20.2.tar.gz",
+                    "sha256": "dc1b486c2003435733043e4e05273477326e51c3ea554c6864a4eafaff1004a6"
+                },
+                {
+                    "type": "shell",
+                    "commands": [ "autoreconf -vfi" ]
+                }
+            ]
+        },
+        {
+            "name": "libkdcraw",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/20.08.3/src/libkdcraw-20.08.3.tar.xz",
+                    "sha256": "e7b62691114b57c6175dd9eace0d0660ba52208a1e82555eebb1668d538a06a0"
+                }
+            ]
+        },
+        {
+            "name": "libkipi",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/20.08.3/src/libkipi-20.08.3.tar.xz",
+                    "sha256": "4b62196e4a44bad865abf65b0cbd162a74ee125af70797bfc546a4da8f5fb8ac"
+                }
+            ]
+        },
+        {
             "name": "gwenview",
             "buildsystem": "cmake-ninja",
             "builddir": true,
