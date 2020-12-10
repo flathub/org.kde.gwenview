@@ -134,8 +134,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.08.3/src/libkdcraw-20.08.3.tar.xz",
-                    "sha256": "e7b62691114b57c6175dd9eace0d0660ba52208a1e82555eebb1668d538a06a0"
+                    "url": "https://download.kde.org/stable/release-service/20.12.0/src/libkdcraw-20.12.0.tar.xz",
+                    "sha256": "99926c46cbf77aa28da63b0a625980d47beb5291ce00f6a187d77e37e9752e5a"
                 }
             ]
         },
@@ -149,8 +149,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.08.3/src/libkipi-20.08.3.tar.xz",
-                    "sha256": "4b62196e4a44bad865abf65b0cbd162a74ee125af70797bfc546a4da8f5fb8ac"
+                    "url": "https://download.kde.org/stable/release-service/20.12.0/src/libkipi-20.12.0.tar.xz",
+                    "sha256": "efb8b33f495a7481e2d1b69954980761f7f267dbc1d287cd1f77fe970d04b42e"
                 }
             ]
         },
@@ -161,12 +161,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.08.3/src/gwenview-20.08.3.tar.xz",
-                    "sha256": "acc76c7b80f71ce47fb747c81cd062b1581ccc441f025e023bedc193feb8bc26"
-                },
-                {
-                    "type": "patch",
-                    "path": "16f85088fcd61886aba9fef5417df6ce9ad89213.diff"
+                    "url": "https://download.kde.org/stable/release-service/20.12.0/src/gwenview-20.12.0.tar.xz",
+                    "sha256": "343b0e0fa00631f837a3b11c973197d372b0588b0450fe0b8067b56a21ab39e1"
                 }
             ]
         }
