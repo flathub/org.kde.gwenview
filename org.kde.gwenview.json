@@ -145,8 +145,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/libkdcraw-22.04.0.tar.xz",
-                    "sha256": "f92cee9a87fdef59f12bde784e1ec2b13b2677c82634e303f20ed8055ddb3e79"
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/libkdcraw-22.04.1.tar.xz",
+                    "sha256": "62942d392519e86e880e5c5b0dc1bda124f245380546299536d755f4eb12a8a5"
                 }
             ]
         },
@@ -160,8 +160,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/libkipi-22.04.0.tar.xz",
-                    "sha256": "72fe676753d157b1fc4da8ae2543e5d2ff9d1cdda45db188710bb7384b979c75"
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/libkipi-22.04.1.tar.xz",
+                    "sha256": "ef15b74fed59d10dd584e452925027d927eeb7b738569089cb8da21b1e9c9afd"
                 }
             ]
         },
@@ -172,8 +172,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/gwenview-22.04.0.tar.xz",
-                    "sha256": "73683096898c59388cd566cc8f71d7677fd0b22a2ab42a6d5f82f1232372ab05"
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/gwenview-22.04.1.tar.xz",
+                    "sha256": "f99a8f6eb7c7e2ba8b3f434512a2050cf64e032c48830c3ad80dbbb6d5e9cc4a"
                 }
             ]
         }
