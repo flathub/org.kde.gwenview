@@ -166,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkipi-22.04.2.tar.xz",
-                    "sha256": "acec30ea2fce9a91bcc6ff04d66e46192fe47296f3caef89155151f9d6df7009",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkipi-22.04.3.tar.xz",
+                    "sha256": "f0881215036b60df4b46e0f8ceb4bc7ee5ab853c51e7abd447a4a77d16680775",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -184,8 +184,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/gwenview-22.04.2.tar.xz",
-                    "sha256": "84eece81340843d6b256008424358128a987858f1bd7eeab0ad588abff244387",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/gwenview-22.04.3.tar.xz",
+                    "sha256": "8c793929f2ad3050d906e185b6753acffd9481dc619156844d681ac0ba57bc05",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
