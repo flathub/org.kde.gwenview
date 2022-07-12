@@ -178,6 +178,48 @@
             ]
         },
         {
+            "name": "lmdb",
+            "no-autogen": true,
+            "make-install-args": [
+                "prefix=/app"
+            ],
+            "subdir": "libraries/liblmdb",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/LMDB/lmdb/archive/refs/tags/LMDB_0.9.29.tar.gz",
+                    "sha256": "22054926b426c66d8f2bc22071365df6e35f3aacf19ad943bc6167d4cae3bebb",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 6974,
+                        "stable-only": true,
+                        "url-template": "https://github.com/LMDB/lmdb/archive/refs/tags/LMDB_$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "baloo",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/frameworks/5.96/baloo-5.96.0.tar.xz",
+                    "sha256": "d418d9ca3e700a148f0109e4ca4a2ade5b81d8f21cfcdbbfc9ed6dd86bed97c5",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/baloo-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "gwenview",
             "buildsystem": "cmake-ninja",
             "builddir": true,
