@@ -220,6 +220,24 @@
             ]
         },
         {
+            "name": "kImageAnnotator",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.6.0.tar.gz",
+                    "sha256": "148ef703ed5535a0c23d11629b588d9cb163598798261aa760d5b351756646a7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 120605,
+                        "stable-only": true,
+                        "url-template": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ]
+        }
+        {
             "name": "gwenview",
             "buildsystem": "cmake-ninja",
             "builddir": true,
