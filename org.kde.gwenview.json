@@ -145,8 +145,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkdcraw-22.04.3.tar.xz",
-                    "sha256": "bd04e74c6a7b5c717ce70397ddf70f43bc0fd050ac97703b9bd46f5e767a2499",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkdcraw-22.08.0.tar.xz",
+                    "sha256": "2aad043bef260df4a8cae20cd47ec94a67e0a62b03b375788d1e45afdc07b6cf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
