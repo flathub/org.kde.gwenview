@@ -220,6 +220,24 @@
             ]
         },
         {
+            "name": "kColorPicker",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.6.0.tar.gz",
+                    "sha256": "20ffc5e935333a18c5cd813c3d306d3482ec9c826fe0d0c3d7b7635419703d55",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 120606,
+                        "stable-only": true,
+                        "url-template": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kImageAnnotator",
             "buildsystem": "cmake-ninja",
             "builddir": true,
