@@ -236,7 +236,7 @@
                     }
                 }
             ]
-        }
+        },
         {
             "name": "gwenview",
             "buildsystem": "cmake-ninja",
