@@ -145,8 +145,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkdcraw-22.04.3.tar.xz",
-                    "sha256": "bd04e74c6a7b5c717ce70397ddf70f43bc0fd050ac97703b9bd46f5e767a2499",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkdcraw-22.08.0.tar.xz",
+                    "sha256": "2aad043bef260df4a8cae20cd47ec94a67e0a62b03b375788d1e45afdc07b6cf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -166,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkipi-22.04.3.tar.xz",
-                    "sha256": "f0881215036b60df4b46e0f8ceb4bc7ee5ab853c51e7abd447a4a77d16680775",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkipi-22.08.0.tar.xz",
+                    "sha256": "0036c14be0ef564bab97b942d73588af95709bb7d42ad5aad88d1fcac482aa65",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -220,14 +220,50 @@
             ]
         },
         {
+            "name": "kColorPicker",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.2.0.tar.gz",
+                    "sha256": "20ffc5e935333a18c5cd813c3d306d3482ec9c826fe0d0c3d7b7635419703d55",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 120606,
+                        "stable-only": true,
+                        "url-template": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "kImageAnnotator",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.6.0.tar.gz",
+                    "sha256": "148ef703ed5535a0c23d11629b588d9cb163598798261aa760d5b351756646a7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 120605,
+                        "stable-only": true,
+                        "url-template": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "gwenview",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/gwenview-22.04.3.tar.xz",
-                    "sha256": "8c793929f2ad3050d906e185b6753acffd9481dc619156844d681ac0ba57bc05",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/gwenview-22.08.0.tar.xz",
+                    "sha256": "447d1e8a0c19476fc2879a4e406d7d6af79b59f9e2c7aad28f70d484789ff716",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
