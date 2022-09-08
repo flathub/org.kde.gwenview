@@ -166,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkipi-22.08.0.tar.xz",
-                    "sha256": "0036c14be0ef564bab97b942d73588af95709bb7d42ad5aad88d1fcac482aa65",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/libkipi-22.08.1.tar.xz",
+                    "sha256": "063d5df547b0dd8c62ed00612ca9818c9af1cea4d64744e684245d04a2e6fe92",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
