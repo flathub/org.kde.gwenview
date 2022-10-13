@@ -145,8 +145,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/libkdcraw-22.08.1.tar.xz",
-                    "sha256": "0e0ef769c831255ce40200eb7e61b2781af01746f7cf2480c565020d7e43848b",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/libkdcraw-22.08.2.tar.xz",
+                    "sha256": "b1a11cdb53ac1a694bcdd8d2d4a7bb71d9fc16e84bd6e103c29f89ff0e6a3f0f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -166,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/libkipi-22.08.1.tar.xz",
-                    "sha256": "063d5df547b0dd8c62ed00612ca9818c9af1cea4d64744e684245d04a2e6fe92",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/libkipi-22.08.2.tar.xz",
+                    "sha256": "26ea8dfc35d6592bdca58bc5f198b0a198669e2ca2f535878ebfa7953c84633c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -262,8 +262,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/gwenview-22.08.1.tar.xz",
-                    "sha256": "5b4593c50395f4088cb1aa434346558f5c73e2b2ec6a74a50a2bba834adf2a9c",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/gwenview-22.08.2.tar.xz",
+                    "sha256": "c10924777c204e4d48e126afa8c3c9b4f5816a1b493f8e3658e88652624f4eb3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
