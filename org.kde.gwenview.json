@@ -10,6 +10,7 @@
         "--filesystem=host",
         "--share=ipc",
         "--socket=fallback-x11",
+        "--socket=pulseaudio",
         "--socket=wayland",
         "--filesystem=xdg-data/Trash"
     ],
