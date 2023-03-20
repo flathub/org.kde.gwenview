@@ -8,11 +8,12 @@
     "finish-args": [
         "--device=dri",
         "--filesystem=host",
+        "--filesystem=xdg-data/Trash",
         "--share=ipc",
+        "--socket=cups",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--socket=wayland",
-        "--filesystem=xdg-data/Trash"
+        "--socket=wayland"
     ],
     "cleanup": [
         "*.a",
