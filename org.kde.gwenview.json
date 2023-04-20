@@ -159,8 +159,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/libkdcraw-22.12.3.tar.xz",
-                    "sha256": "0e64c591ae2d9b11f433d7578b528753bf38d0aa9b8c06fb4a0675c0ad940789",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/libkdcraw-23.04.0.tar.xz",
+                    "sha256": "f7af5d51721c8852236ca875a969f7ad6ba223eaae1564614d7470582a901ba8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -180,8 +180,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/libkipi-22.12.3.tar.xz",
-                    "sha256": "5467a4268f82464083bfb0128ba3332601486b14ec2945515534eabce363265d",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/libkipi-23.04.0.tar.xz",
+                    "sha256": "a07859eed5cb9c130a6abc1f1b8c1ec895a32e735d13be609e26ca722deacca6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -276,8 +276,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/gwenview-22.12.3.tar.xz",
-                    "sha256": "4a1dc70956d7f6c3c5fab57efde119086bb736dce36a864db5d4f0ab7e005460",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/gwenview-23.04.0.tar.xz",
+                    "sha256": "b63d81b4471bd37526b0da8f283373df3f60c9a5ea7c9cc40d3baa599c76a50c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
