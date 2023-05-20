@@ -165,27 +165,6 @@
             ]
         },
         {
-            "name": "libkipi",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF"
-            ],
-            "builddir": true,
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/libkipi-23.04.1.tar.xz",
-                    "sha256": "6b0f14cabbcccbb80bdcf7d2c9ac2e6b27ef660e9f56e8797847c9cd1ef21496",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkipi-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "lmdb",
             "no-autogen": true,
             "make-install-args": [
