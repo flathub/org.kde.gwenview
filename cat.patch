@@ -1,0 +1,13 @@
+diff --git a/app/startmainpage.ui b/app/startmainpage.ui
+index 500039b2..5ebb7744 100644
+--- a/app/startmainpage.ui
++++ b/app/startmainpage.ui
+@@ -48,7 +48,7 @@
+        </property>
+        <widget class="QWidget" name="mRecentFoldersTab">
+         <attribute name="title">
+-         <string>Recent Folders</string>
++         <string>Recent Cat Folders</string>
+         </attribute>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
