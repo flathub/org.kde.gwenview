@@ -7,7 +7,12 @@
     "rename-icon": "gwenview",
     "finish-args": [
         "--device=dri",
-        "--filesystem=host",
+        "--filesystem=home",
+        "--filesystem=/media",
+        "--filesystem=/mnt",
+        "--filesystem=/run/media",
+        "--filesystem=/var/run/media",
+        "--filesystem=/var/mnt",
         "--filesystem=xdg-data/Trash",
         "--share=ipc",
         "--socket=cups",
