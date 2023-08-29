@@ -13,6 +13,7 @@
         "--filesystem=/run/media",
         "--filesystem=/var/run/media",
         "--filesystem=/var/mnt",
+        "--filesystem=/usr:ro",
         "--filesystem=xdg-data/Trash",
         "--share=ipc",
         "--socket=cups",
