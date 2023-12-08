@@ -107,8 +107,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.3.0.tar.gz",
-                    "sha256": "fdadc01d09cf9f54253802c5ec87eb10de51ce4130411415ae88c30940621b8b",
+                    "url": "http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.3.1.tar.gz",
+                    "sha256": "47a7c8ee05687be1e1d8eeeb94fb88f060fbf3cd8a4df52ccb88d5eb0f5062be",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 270,
@@ -181,8 +181,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/libkdcraw-23.08.3.tar.xz",
-                    "sha256": "5406fbbbaded4af8001581dbdb0b85fd9e8ba88df162212a4683e2e9206df32f",
+                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/libkdcraw-23.08.4.tar.xz",
+                    "sha256": "b11e49ab150613fed5ad3d28c523125be2d6d5cf309599635a1d3b7aae7ea3d6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -277,8 +277,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/gwenview-23.08.3.tar.xz",
-                    "sha256": "1a0a9bcf3d2acbe18fa82014bfcd1cee7d23184c6d3a04112df569f6eda8d83c",
+                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/gwenview-23.08.4.tar.xz",
+                    "sha256": "48549ba76c74d7079d935bece2d3d43186384ae5d14ffde59d55b12c9bcaad05",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
