@@ -120,16 +120,9 @@
         },
         {
             "name": "jasper",
-            "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "config-opts": [
-                "-DJAS_ENABLE_SHARED=ON",
-                "-DJAS_ENABLE_LIBJPEG=ON",
-                "-DJAS_ENABLE_OPENGL=OFF",
-                "-DJAS_LOCAL=OFF",
-                "-DJAS_ENABLE_DOC=OFF",
-                "-DJAS_ENABLE_PROGRAMS=OFF",
-                "-DALLOW_IN_SOURCE_BUILD=ON"
+            "buildsystem": "simple",
+            "build-commands": [
+                "cmake -B/run/build/jasper-build -GNinja -DCMAKE_INSTALL_PREFIX=/app -DCMAKE_INSTALL_LIBDIR=/app/lib -DJAS_ENABLE_SHARED=ON -DJAS_ENABLE_LIBJPEG=ON -DJAS_ENABLE_OPENGL=OFF -DJAS_LOCAL=OFF -DJAS_ENABLE_DOC=OFF -DJAS_ENABLE_PROGRAMS=OFF && cmake --build /run/build/jasper-build && cmake --install /run/build/jasper-build"
             ],
             "sources": [
                 {
