@@ -128,7 +128,8 @@
                 "-DJAS_ENABLE_OPENGL=OFF",
                 "-DJAS_LOCAL=OFF",
                 "-DJAS_ENABLE_DOC=OFF",
-                "-DJAS_ENABLE_PROGRAMS=OFF"
+                "-DJAS_ENABLE_PROGRAMS=OFF",
+                "-DALLOW_IN_SOURCE_BUILD=ON"
             ],
             "sources": [
                 {
