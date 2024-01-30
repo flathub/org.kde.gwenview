@@ -239,6 +239,12 @@
             "name": "kColorPicker",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "post-install": [
+                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kColorPicker",
+                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config.cmake,kColorPicker/kColorPickerConfig.cmake}",
+                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config-version.cmake,kColorPicker/kColorPickerConfig-version.cmake}",
+                "ln -sr $FLATPAK_DEST/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5-targets* $FLATPAK_DEST/lib/cmake/kColorPicker/"
+            ],
             "sources": [
                 {
                     "type": "archive",
