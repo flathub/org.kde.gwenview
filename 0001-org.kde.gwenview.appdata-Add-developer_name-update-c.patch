@@ -1,0 +1,50 @@
+From d73c088556b6f118154f9709a46136f584e7dcdf Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Tue, 30 Jan 2024 11:20:40 +0100
+Subject: [PATCH] org.kde.gwenview.appdata: Add developer_name & update
+ caption
+
+Fixes the following lint errors for Flathub:
+```
+{
+    "errors": [
+        "appstream-missing-developer-name"
+    ],
+    "warnings": [
+        "appstream-screenshot-missing-caption"
+    ]
+}
+```
+
+See: https://github.com/flathub/org.kde.gwenview/pull/123
+See: https://github.com/flathub-infra/flatpak-builder-lint/issues/274
+See: https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-developer
+See: https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-developer_name
+---
+ app/org.kde.gwenview.appdata.xml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/app/org.kde.gwenview.appdata.xml b/app/org.kde.gwenview.appdata.xml
+index 51857e39..9a9203f7 100644
+--- a/app/org.kde.gwenview.appdata.xml
++++ b/app/org.kde.gwenview.appdata.xml
+@@ -3,6 +3,7 @@
+   <id>org.kde.gwenview.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0+</project_license>
++  <developer_name translate="no">KDE</developer_name>
+   <name>Gwenview</name>
+   <name xml:lang="ar">جونفيو</name>
+   <name xml:lang="az">Gwenview</name>
+@@ -396,7 +397,7 @@
+   <url type="donation">https://www.kde.org/community/donations/?app=gwenview&amp;source=appdata</url>
+   <screenshots>
+     <screenshot type="default">
+-      <caption>Gwenview</caption>
++      <caption>Main application window displaying an image and controls on the left</caption>
+       <caption xml:lang="ar">جونفيو</caption>
+       <caption xml:lang="az">Gwenview</caption>
+       <caption xml:lang="be">Gwenview</caption>
+-- 
+2.43.0
+
