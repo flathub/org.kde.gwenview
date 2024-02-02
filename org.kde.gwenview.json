@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r57.tar.gz",
-                    "sha256": "f03f98ca35c3adb56b2358573c8d3eda319ccd5287243d691e724b7eafa970b3",
+                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r58.tar.gz",
+                    "sha256": "e79216260d5dffe809bda840be48ab0eec7737b2bb9f02d2275c1b46344ea7b7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 11600,
@@ -203,8 +203,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.31/openldap-LMDB_0.9.31.tar.bz2",
-                    "sha256": "2132b8261d241876ce5fe10a243b2f7e0127eecaaff30039573eadc09e3acee6",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.32/openldap-LMDB_0.9.32.tar.bz2",
+                    "sha256": "039be48414f71299d04fb01da3e1a6461075bb77eaeeeda36ee5285de804ebf6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -239,11 +239,17 @@
             "name": "kColorPicker",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "post-install": [
+                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kColorPicker",
+                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config.cmake,kColorPicker/kColorPickerConfig.cmake}",
+                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config-version.cmake,kColorPicker/kColorPickerConfig-version.cmake}",
+                "ln -sr $FLATPAK_DEST/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5-targets* $FLATPAK_DEST/lib/cmake/kColorPicker/"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.2.0.tar.gz",
-                    "sha256": "20ffc5e935333a18c5cd813c3d306d3482ec9c826fe0d0c3d7b7635419703d55",
+                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.3.0.tar.gz",
+                    "sha256": "cab1efae1ca345a831dc6975b81c344da5c9425d934d73584dd7d0d512af3946",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 120606,
@@ -257,11 +263,17 @@
             "name": "kImageAnnotator",
             "buildsystem": "cmake-ninja",
             "builddir": true,
+            "post-install": [
+                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kImageAnnotator",
+                "ln -sr $FLATPAK_DEST/lib/cmake/{kImageAnnotator-Qt5/kImageAnnotator-Qt5Config.cmake,kImageAnnotator/kImageAnnotatorConfig.cmake}",
+                "ln -sr $FLATPAK_DEST/lib/cmake/{kImageAnnotator-Qt5/kImageAnnotator-Qt5Config-version.cmake,kImageAnnotator/kImageAnnotatorConfig-version.cmake}",
+                "ln -sr $FLATPAK_DEST/lib/cmake/kImageAnnotator-Qt5/kImageAnnotator-targets* $FLATPAK_DEST/lib/cmake/kImageAnnotator/"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.6.1.tar.gz",
-                    "sha256": "8d32f0722dbb59a387d5d07c83a483e1b32f5014183eb67f2a9c5340da73d369",
+                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.7.0.tar.gz",
+                    "sha256": "66e6ff5de1f8f808834143130a0a06d203aa01fb8f02e65af73042e61342163a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 120605,
@@ -286,6 +298,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/gwenview-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-org.kde.gwenview.appdata-Add-developer_name-update-c.patch"
                 }
             ]
         }
