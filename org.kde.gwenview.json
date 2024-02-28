@@ -182,8 +182,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/libkdcraw-23.08.5.tar.xz",
-                    "sha256": "ab1080e449ff468032b7ba5f203fba1cdca3ab9958c4f9b5451ba0e2c0978f11",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/libkdcraw-24.02.0.tar.xz",
+                    "sha256": "d13724b6d7587240421098796606d63f7bf552bea1625829482baf2df99aab1a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -224,8 +224,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.115/baloo-5.115.0.tar.xz",
-                    "sha256": "95cb2038efc4b32f3a17d5592bf247815ea6d02fb8707e04b65bdd80d851c108",
+                    "url": "https://download.kde.org/stable/frameworks/6.0/baloo-6.0.0.tar.xz",
+                    "sha256": "ea21e88d1fe252d2dc95e0b7ae8891594822ccdd898e7aa56d46ed9ecd626a41",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -290,8 +290,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/gwenview-23.08.5.tar.xz",
-                    "sha256": "a4fcd1c053b750d26ea8a9183208ecb5ed1d9b281625de3393e14f8bdc169038",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/gwenview-24.02.0.tar.xz",
+                    "sha256": "03606d3cba1520f04556ac92b2aa449f85e7daca36a637162d33c05ec42bb0b4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
