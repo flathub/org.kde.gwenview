@@ -170,7 +170,8 @@
             "name": "libkdcraw",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "builddir": true,
             "sources": [
@@ -232,13 +233,10 @@
         {
             "name": "kColorPicker",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "post-install": [
-                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kColorPicker",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config.cmake,kColorPicker/kColorPickerConfig.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config-version.cmake,kColorPicker/kColorPickerConfig-version.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5-targets* $FLATPAK_DEST/lib/cmake/kColorPicker/"
+            "config-opts": [
+                "-DBUILD_WITH_QT6=ON"
             ],
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
@@ -256,13 +254,10 @@
         {
             "name": "kImageAnnotator",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "post-install": [
-                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kImageAnnotator",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kImageAnnotator-Qt5/kImageAnnotator-Qt5Config.cmake,kImageAnnotator/kImageAnnotatorConfig.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kImageAnnotator-Qt5/kImageAnnotator-Qt5Config-version.cmake,kImageAnnotator/kImageAnnotatorConfig-version.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/kImageAnnotator-Qt5/kImageAnnotator-targets* $FLATPAK_DEST/lib/cmake/kImageAnnotator/"
+            "config-opts": [
+                "-DBUILD_WITH_QT6=ON"
             ],
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
