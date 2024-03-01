@@ -163,12 +163,6 @@
                         "stable-only": true,
                         "url-template": "https://www.libraw.org/data/LibRaw-$version.tar.gz"
                     }
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "autoreconf -vfi"
-                    ]
                 }
             ]
         },
