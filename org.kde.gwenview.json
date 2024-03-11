@@ -240,8 +240,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.3.0.tar.gz",
-                    "sha256": "cab1efae1ca345a831dc6975b81c344da5c9425d934d73584dd7d0d512af3946",
+                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.3.1.tar.gz",
+                    "sha256": "e78c785ec4a8a22a48a91835c97601f5704b5076b154415353b0d2697dc0b4f7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 120606,
@@ -261,8 +261,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.7.0.tar.gz",
-                    "sha256": "66e6ff5de1f8f808834143130a0a06d203aa01fb8f02e65af73042e61342163a",
+                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.7.1.tar.gz",
+                    "sha256": "2335c5be15a5dde34c3333c10a6339da114e2232e4c4642dea1793e491e09677",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 120605,
