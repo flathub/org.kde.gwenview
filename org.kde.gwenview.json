@@ -257,7 +257,8 @@
             "name": "kImageAnnotator",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_WITH_QT6=ON"
+                "-DBUILD_WITH_QT6=ON",
+                "-DBUILD_SHARED_LIBS=ON"
             ],
             "builddir": true,
             "sources": [
