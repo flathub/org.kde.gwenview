@@ -1,7 +1,7 @@
 {
     "id": "org.kde.gwenview",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "gwenview",
     "rename-icon": "gwenview",
@@ -97,7 +97,7 @@
                 "make shared",
                 "make utils",
                 "make DESTDIR=${FLATPAK_DEST} install",
-                "install -D -m644 License.txt ${FLATPAK_DEST}/share/licenses/cfitsio/LICENSE"
+                "install -D -m644 licenses/* ${FLATPAK_DEST}/share/licenses/cfitsio/LICENSE"
             ],
             "cleanup": [
                 "/bin/cookbook",
@@ -107,13 +107,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.3.1.tar.gz",
-                    "sha256": "47a7c8ee05687be1e1d8eeeb94fb88f060fbf3cd8a4df52ccb88d5eb0f5062be",
+                    "archive-type": "tar",
+                    "url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.4.0.tar.gz",
+                    "sha256": "c42bd609151c0b0d7c4f3578d425ae7aaa9afa4828cab35c0accea588e290c29",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 270,
                         "stable-only": true,
-                        "url-template": "http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-$version.tar.gz"
+                        "url-template": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-$version.tar.gz"
                     }
                 }
             ]
@@ -163,12 +164,6 @@
                         "stable-only": true,
                         "url-template": "https://www.libraw.org/data/LibRaw-$version.tar.gz"
                     }
-                },
-                {
-                    "type": "shell",
-                    "commands": [
-                        "autoreconf -vfi"
-                    ]
                 }
             ]
         },
@@ -176,14 +171,15 @@
             "name": "libkdcraw",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/libkdcraw-23.08.5.tar.xz",
-                    "sha256": "ab1080e449ff468032b7ba5f203fba1cdca3ab9958c4f9b5451ba0e2c0978f11",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/libkdcraw-24.02.0.tar.xz",
+                    "sha256": "d13724b6d7587240421098796606d63f7bf552bea1625829482baf2df99aab1a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -224,8 +220,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.115/baloo-5.115.0.tar.xz",
-                    "sha256": "95cb2038efc4b32f3a17d5592bf247815ea6d02fb8707e04b65bdd80d851c108",
+                    "url": "https://download.kde.org/stable/frameworks/6.0/baloo-6.0.0.tar.xz",
+                    "sha256": "ea21e88d1fe252d2dc95e0b7ae8891594822ccdd898e7aa56d46ed9ecd626a41",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -238,18 +234,16 @@
         {
             "name": "kColorPicker",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "post-install": [
-                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kColorPicker",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config.cmake,kColorPicker/kColorPickerConfig.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kColorPicker-Qt5/kColorPicker-Qt5Config-version.cmake,kColorPicker/kColorPickerConfig-version.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/kColorPicker-Qt5/kColorPicker-Qt5-targets* $FLATPAK_DEST/lib/cmake/kColorPicker/"
+            "config-opts": [
+                "-DBUILD_WITH_QT6=ON",
+                "-DBUILD_SHARED_LIBS=ON"
             ],
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.3.0.tar.gz",
-                    "sha256": "cab1efae1ca345a831dc6975b81c344da5c9425d934d73584dd7d0d512af3946",
+                    "url": "https://github.com/ksnip/kColorPicker/archive/refs/tags/v0.3.1.tar.gz",
+                    "sha256": "e78c785ec4a8a22a48a91835c97601f5704b5076b154415353b0d2697dc0b4f7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 120606,
@@ -262,18 +256,16 @@
         {
             "name": "kImageAnnotator",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
-            "post-install": [
-                "install -d -m 755 $FLATPAK_DEST/lib/cmake/kImageAnnotator",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kImageAnnotator-Qt5/kImageAnnotator-Qt5Config.cmake,kImageAnnotator/kImageAnnotatorConfig.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/{kImageAnnotator-Qt5/kImageAnnotator-Qt5Config-version.cmake,kImageAnnotator/kImageAnnotatorConfig-version.cmake}",
-                "ln -sr $FLATPAK_DEST/lib/cmake/kImageAnnotator-Qt5/kImageAnnotator-targets* $FLATPAK_DEST/lib/cmake/kImageAnnotator/"
+            "config-opts": [
+                "-DBUILD_WITH_QT6=ON",
+                "-DBUILD_SHARED_LIBS=ON"
             ],
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.7.0.tar.gz",
-                    "sha256": "66e6ff5de1f8f808834143130a0a06d203aa01fb8f02e65af73042e61342163a",
+                    "url": "https://github.com/ksnip/kImageAnnotator/archive/refs/tags/v0.7.1.tar.gz",
+                    "sha256": "2335c5be15a5dde34c3333c10a6339da114e2232e4c4642dea1793e491e09677",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 120605,
@@ -290,8 +282,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/gwenview-23.08.5.tar.xz",
-                    "sha256": "a4fcd1c053b750d26ea8a9183208ecb5ed1d9b281625de3393e14f8bdc169038",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/gwenview-24.02.0.tar.xz",
+                    "sha256": "03606d3cba1520f04556ac92b2aa449f85e7daca36a637162d33c05ec42bb0b4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
