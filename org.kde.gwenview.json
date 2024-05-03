@@ -135,8 +135,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.3.tar.gz",
-                    "sha256": "1263d70c663f1b5a4ed2a428371486091d282af96b7270e8b1cbfcbf44ad95ff",
+                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.4.tar.gz",
+                    "sha256": "23a3d58cdeacf3abdf9fa1d81dcefee58da6ab330940790c0f27019703bfd2cd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1421,
