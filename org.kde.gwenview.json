@@ -13,7 +13,12 @@
         "--socket=cups",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--socket=wayland"
+        "--socket=wayland",
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--talk-name=org.freedesktop.ScreenSaver",
+        "--talk-name=org.kde.ActivityManager",
+        "--talk-name=org.kde.kdeconnect",
+        "--talk-name=org.kde.kuiserver"
     ],
     "cleanup": [
         "*.a",
