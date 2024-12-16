@@ -8,6 +8,7 @@
     "finish-args": [
         "--device=dri",
         "--filesystem=host",
+        "--filesystem=xdg-cache/thumbnails:rw",
         "--filesystem=xdg-data/Trash",
         "--share=ipc",
         "--socket=cups",
