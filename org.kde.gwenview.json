@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.5.0.tar.gz",
-                    "sha256": "e4854fc3365c1462e493aa586bfaa2f3d0bb8c20b75a524955db64c27427ce09",
+                    "url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.6.0.tar.gz",
+                    "sha256": "7c372fdb4e6cf530fc12294ae0b7f1fdd0ed85062790277a60aea56c97b0d3e7",
                     "disable-http-decompression": true,
                     "x-checker-data": {
                         "type": "anitya",
@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.11/baloo-6.11.0.tar.xz",
-                    "sha256": "bb87d40534a00cc363d29e3d7d0f37a9dcdd0d831db1a57bbf8b8e395507560a",
+                    "url": "https://download.kde.org/stable/frameworks/6.12/baloo-6.12.0.tar.xz",
+                    "sha256": "89844fab9c792df5a2a19e83242e4fc71ffc5fd51e18e2b3d9063771d5096b5e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
