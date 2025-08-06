@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r60.tar.gz",
-                    "sha256": "706aa05c888b53bd170e5d8aa8f8a9d9ccf5449dfed262d5103d1f292af26774",
+                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r61.tar.gz",
+                    "sha256": "7caf26a2202a4ca689df3fe4175dfa74e0faa18fcca07331bba934fd0ecb8f12",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 11600,
@@ -137,8 +137,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.5.tar.gz",
-                    "sha256": "3f4b1df7cab7a3cc67b9f6e28c730372f030b54b0faa8548a9ee04ae83fffd44",
+                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.8.tar.gz",
+                    "sha256": "987e8c8b4afcff87553833b6f0fa255b5556a0ecc617b45ee1882e10c1b5ec14",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1421,
@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/baloo-6.13.0.tar.xz",
-                    "sha256": "5b4574d9a4a080bdc975e931bd411a7386a0c17ff0d5c5751dd26c92010133f8",
+                    "url": "https://download.kde.org/stable/frameworks/6.16/baloo-6.16.0.tar.xz",
+                    "sha256": "8c27feeca25ab073862e433c735782f28713568d1390a84771b1ba43f6171f65",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
