@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r60.tar.gz",
-                    "sha256": "706aa05c888b53bd170e5d8aa8f8a9d9ccf5449dfed262d5103d1f292af26774",
+                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r61.tar.gz",
+                    "sha256": "7caf26a2202a4ca689df3fe4175dfa74e0faa18fcca07331bba934fd0ecb8f12",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 11600,
@@ -137,8 +137,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.5.tar.gz",
-                    "sha256": "3f4b1df7cab7a3cc67b9f6e28c730372f030b54b0faa8548a9ee04ae83fffd44",
+                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.8.tar.gz",
+                    "sha256": "987e8c8b4afcff87553833b6f0fa255b5556a0ecc617b45ee1882e10c1b5ec14",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1421,
@@ -180,8 +180,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/libkdcraw-25.04.3.tar.xz",
-                    "sha256": "4ffd227cf0838c9a46be9f682d2431928e4663ad54de1f765bd8ae258eb110e8",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkdcraw-25.08.0.tar.xz",
+                    "sha256": "4640d1740dbb85487e57a5f07a65aca90093ec107cdc32430fea88fbea0797be",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -379,8 +379,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/gwenview-25.04.3.tar.xz",
-                    "sha256": "59bf9fc4a4be87260781ccb5872212484b697caa53fa0ee7e128bdb08eaf5e87",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/gwenview-25.08.0.tar.xz",
+                    "sha256": "5bf1bfccedef659f4df913adddd64a2c964d39b84cf1427104bb15dbaa86f08e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
