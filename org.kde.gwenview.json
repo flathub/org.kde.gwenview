@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.5.tar.gz",
-                    "sha256": "e1671f744e379a87ba0c984617406fdf8c0ad0c594e5122f525b2fb7c28d394d",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.7.tar.gz",
+                    "sha256": "5e292b02614dbc0cee40fe1116db2f42f63ef6b2ba430c77b614e17b8d61a638",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -222,8 +222,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/baloo-6.13.0.tar.xz",
-                    "sha256": "5b4574d9a4a080bdc975e931bd411a7386a0c17ff0d5c5751dd26c92010133f8",
+                    "url": "https://download.kde.org/stable/frameworks/6.17/baloo-6.17.0.tar.xz",
+                    "sha256": "21aac3e95ea095df029bbe0bd5663aa398a8894e9c31ea7fabb5cd0b9848544a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
