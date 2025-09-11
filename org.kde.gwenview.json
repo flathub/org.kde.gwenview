@@ -64,9 +64,9 @@
             "builddir": true,
             "config-opts": [
                 "-DBUILD_SHARED_LIBS=ON",
+                "-DBUILD_TESTING=OFF",
                 "-DEXIV2_BUILD_DOC=OFF",
                 "-DEXIV2_BUILD_EXIV2_COMMAND=OFF",
-                "-DEXIV2_BUILD_PO=OFF",
                 "-DEXIV2_BUILD_SAMPLES=OFF",
                 "-DEXIV2_BUILD_UNIT_TESTS=OFF",
                 "-DEXIV2_ENABLE_CURL=OFF",
@@ -75,11 +75,8 @@
                 "-DEXIV2_ENABLE_LENSDATA=ON",
                 "-DEXIV2_ENABLE_NLS=ON",
                 "-DEXIV2_ENABLE_PNG=ON",
-                "-DEXIV2_ENABLE_PRINTUCS2=ON",
-                "-DEXIV2_ENABLE_SSH=OFF",
                 "-DEXIV2_ENABLE_VIDEO=OFF",
                 "-DEXIV2_ENABLE_WEBREADY=OFF",
-                "-DEXIV2_ENABLE_WIN_UNICODE=OFF",
                 "-DEXIV2_ENABLE_XMP=ON",
                 "-DEXIV2_TEAM_EXTRA_WARNINGS=OFF",
                 "-DEXIV2_TEAM_USE_SANITIZERS=OFF",
@@ -126,13 +123,13 @@
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
-                "-DJAS_ENABLE_SHARED=ON",
+                "-DALLOW_IN_SOURCE_BUILD=ON",
+                "-DJAS_ENABLE_DOC=OFF",
                 "-DJAS_ENABLE_LIBJPEG=ON",
                 "-DJAS_ENABLE_OPENGL=OFF",
-                "-DJAS_LOCAL=OFF",
-                "-DJAS_ENABLE_DOC=OFF",
                 "-DJAS_ENABLE_PROGRAMS=OFF",
-                "-DALLOW_IN_SOURCE_BUILD=ON"
+                "-DJAS_ENABLE_SHARED=ON",
+                "-DJAS_LOCAL=OFF"
             ],
             "sources": [
                 {
@@ -280,15 +277,15 @@
         {
             "name": "ffmpeg",
             "config-opts": [
-                "--enable-pic",
-                "--enable-shared",
                 "--disable-doc",
                 "--disable-static",
                 "--enable-gpl",
-                "--enable-libvpx",
                 "--enable-libmp3lame",
+                "--enable-libopus",
                 "--enable-libvorbis",
-                "--enable-libopus"
+                "--enable-libvpx",
+                "--enable-pic",
+                "--enable-shared"
             ],
             "sources": [
                 {
@@ -325,10 +322,10 @@
             "name": "libvlc",
             "config-opts": [
                 "BUILDCC=gcc",
-                "--disable-lua",
                 "--disable-a52",
-                "--disable-qt",
+                "--disable-lua",
                 "--disable-ncurses",
+                "--disable-qt",
                 "--disable-udev"
             ],
             "sources": [
