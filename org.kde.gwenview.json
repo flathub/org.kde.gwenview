@@ -278,6 +278,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/gwenview-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-Drop-empty-tag-from-appdata.patch"
                 }
             ]
         }
