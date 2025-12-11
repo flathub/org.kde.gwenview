@@ -1,0 +1,25 @@
+From e7598714d72e9db88e92500605eb02ca56976212 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Thu, 11 Dec 2025 18:18:35 +0100
+Subject: [PATCH] Drop empty tag from appdata
+
+---
+ app/org.kde.gwenview.appdata.xml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/app/org.kde.gwenview.appdata.xml b/app/org.kde.gwenview.appdata.xml
+index 7ef53bbb..42a1a48a 100644
+--- a/app/org.kde.gwenview.appdata.xml
++++ b/app/org.kde.gwenview.appdata.xml
+@@ -483,8 +483,5 @@
+     <release version="24.02.0" date="2024-02-28"/>
+     <release version="23.08.5" date="2024-02-15"/>
+   </releases>
+-  <custom>
+-    <value key="KDE::supporters"> </value>
+-  </custom>
+   <content_rating type="oars-1.1"/>
+ </component>
+-- 
+2.52.0
+
