@@ -166,8 +166,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/libkdcraw-25.08.3.tar.xz",
-                    "sha256": "52fa78d013e13c72c62fb4d6868ef10a8c11d89948a6d24415647e917aa72cdf",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/libkdcraw-25.12.0.tar.xz",
+                    "sha256": "5156401a59784313a660eec0dc553327c21ef0af028fc314525926d12af84fd4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -270,8 +270,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/gwenview-25.08.3.tar.xz",
-                    "sha256": "2000c42d40ee3e92ce355f82d2fddd07d27f613f71cf2e65699cfe794a76eca1",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/gwenview-25.12.0.tar.xz",
+                    "sha256": "cf328a568c5ef385c8ad0500b885d13049dd599492d2479f5d831e23410bf78c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
