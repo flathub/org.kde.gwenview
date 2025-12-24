@@ -144,8 +144,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.21.4.tar.gz",
-                    "sha256": "6be43f19397e43214ff56aab056bf3ff4925ca14012ce5a1538a172406a09e63",
+                    "url": "https://www.libraw.org/data/LibRaw-0.21.5.tar.gz",
+                    "sha256": "20ecfa6aad943d383ab3f66d303727ef542b042cbba2bb7ddaeff0bb2e9ff916",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -208,8 +208,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.20/baloo-6.20.0.tar.xz",
-                    "sha256": "06a0dc24b9cae08c7228aebc3215185042b58c4fc58ef86c8863e577493d1314",
+                    "url": "https://download.kde.org/stable/frameworks/6.21/baloo-6.21.0.tar.xz",
+                    "sha256": "5cfef8830485a7d420fbadca67cd441822bc59efc1c71b0afef233b97553771e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
