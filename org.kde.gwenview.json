@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.7.tar.gz",
-                    "sha256": "5e292b02614dbc0cee40fe1116db2f42f63ef6b2ba430c77b614e17b8d61a638",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.8.tar.gz",
+                    "sha256": "ea51b0609f58a9afa063b60daa1539948b62247721e154f4fff0ad3aec9f9756",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
@@ -125,8 +125,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.8.tar.gz",
-                    "sha256": "987e8c8b4afcff87553833b6f0fa255b5556a0ecc617b45ee1882e10c1b5ec14",
+                    "url": "https://github.com/jasper-software/jasper/archive/version-4.2.9.tar.gz",
+                    "sha256": "b0e5af6b54c274b9670c7e32ddbf6c802d88c896062d760267695dd0aa7014ff",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1421,
@@ -146,8 +146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.22.0.tar.gz",
-                    "sha256": "1071e6e8011593c366ffdadc3d3513f57c90202d526e133174945ec1dd53f2a1",
+                    "url": "https://www.libraw.org/data/LibRaw-0.22.1.tar.gz",
+                    "sha256": "a789dc4e2409e2901d93793a4e0b80c7b49d0d97cf6ad71c850eb7616acfd786",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -168,8 +168,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/libkdcraw-25.12.2.tar.xz",
-                    "sha256": "f2f6fcd61d8f0f0cc256f7b163bbc9986af5559f010e43dcbc0a83ebce243797",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkdcraw-25.12.3.tar.xz",
+                    "sha256": "23b220f14bbaa21858b6f8e18169499389835b6693e73a877f8e0d788f4499af",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -210,8 +210,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.22/baloo-6.22.0.tar.xz",
-                    "sha256": "57b2ac1ae953d499b7364125fe3e7aa5857fb532456ecf0bda2635e875a66d2a",
+                    "url": "https://download.kde.org/stable/frameworks/6.25/baloo-6.25.0.tar.xz",
+                    "sha256": "d7746f5742d96f85c11b64a1aae8a6af1f20e55b815f81da8a4e6c3c5172a2d9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -272,8 +272,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/gwenview-25.12.2.tar.xz",
-                    "sha256": "0e63d7054168e9acf366961582d0f5121e1af6bc58c58b9a22065aa65de683fb",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/gwenview-25.12.3.tar.xz",
+                    "sha256": "06ea32a51d8e9efebc4a4e63eb3ef8b23b68a5af5ab38045a7e2837a4fd193b4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
