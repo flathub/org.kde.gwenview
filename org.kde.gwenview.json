@@ -168,8 +168,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkdcraw-25.12.3.tar.xz",
-                    "sha256": "23b220f14bbaa21858b6f8e18169499389835b6693e73a877f8e0d788f4499af",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/libkdcraw-26.04.3.tar.xz",
+                    "sha256": "7bc63591e1fc1352177849a6998030dca2fca98e902a55186afec55add326f4f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -189,8 +189,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.35/openldap-LMDB_0.9.35.tar.bz2",
-                    "sha256": "98e28ab0a5c23fb2eb8ad12c12d7ad5fc5e4c3563f41d0b91e9420a075974d6f",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.0/openldap-LMDB_1.0.0.tar.bz2",
+                    "sha256": "9ab73cda2ca2132d10256a63b655981af4860f6dc8315a933175ff9b598ffab2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -272,8 +272,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/gwenview-25.12.3.tar.xz",
-                    "sha256": "06ea32a51d8e9efebc4a4e63eb3ef8b23b68a5af5ab38045a7e2837a4fd193b4",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/gwenview-26.04.3.tar.xz",
+                    "sha256": "dabd48e172cf78f4b42de7423de56ed474d241abb080b4d2b632c5d4d4e8dbaf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
