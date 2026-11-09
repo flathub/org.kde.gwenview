@@ -38,8 +38,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r62.tar.gz",
-                    "sha256": "9c15fa751bb8093d042dae1b9f125eb45198c32c6704cd5481ccde460d4f8151",
+                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r63.tar.gz",
+                    "sha256": "5d7967de62c5bfdc4f9f5ab06ce44c9e498bae021c7dac5792c0696e76aa9963",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 11600,
@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.6.4.tar.gz",
-                    "sha256": "227b637b91c9820ea96f39a65eb087f053de567d82f4338e2884f123f8183c55",
+                    "url": "https://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-4.7.0.tar.gz",
+                    "sha256": "ce573bbea8e75b429f8c3d3e86498741ba3dc9628a1530d2f65268397ad059e8",
                     "disable-http-decompression": true,
                     "x-checker-data": {
                         "type": "anitya",
@@ -146,8 +146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libraw.org/data/LibRaw-0.22.2.tar.gz",
-                    "sha256": "de86b035655accff8d4010f1a221fdf50d353cb7b1422ba26f14a0db92612cfa",
+                    "url": "https://www.libraw.org/data/LibRaw-0.22.3.tar.gz",
+                    "sha256": "789f3c33466210a1a0907f747a97c715d21bbf4af712f257fcbbd90111b227e4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1709,
@@ -168,8 +168,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libkdcraw-26.08.1.tar.xz",
-                    "sha256": "cf49479043a75557f82b0213019c45291d612267e454b66d939f04b189c4f182",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/libkdcraw-26.08.3.tar.xz",
+                    "sha256": "835f43299d97afd37a5e03bd48f977bad388553c5cd079fa51b1bda6151e1917",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -210,8 +210,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.30/baloo-6.30.0.tar.xz",
-                    "sha256": "a59d33a919bfa1d164c8f3a6f992c609edaf2131ac5f52ea4ecb77f6fbc53be1",
+                    "url": "https://download.kde.org/stable/frameworks/6.31/baloo-6.31.0.tar.xz",
+                    "sha256": "178d6550a7c55a820322182814a96a7564343a506772971e4aac8b1e7e4d1829",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -272,8 +272,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/gwenview-26.08.1.tar.xz",
-                    "sha256": "638a43a74e3a4d3881b846c167e8f42423558df314d124d1c82cef98d29d7ba1",
+                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/gwenview-26.08.3.tar.xz",
+                    "sha256": "14cd907c8290e49450e2e26dd894854eaed3a7d5dc383c744ab7cc4728ea2bee",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
